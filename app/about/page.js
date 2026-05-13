@@ -26,20 +26,24 @@ export default function AboutPage() {
           <div className="mt-8 h-2 w-24 rounded-full bg-[#FF91BB]"></div>
         </div>
 
-        {/* HEADSHOT PLACEHOLDER */}
-        <div className="bg-white rounded-3xl shadow-xl border border-[#121310]/5 p-8 flex items-center justify-center min-h-[420px]">
+        {/* HEADSHOT */}
+<div className="bg-white rounded-3xl shadow-xl border border-[#121310]/5 p-8 flex items-center justify-center min-h-[420px]">
 
-          <div className="text-center">
-            <div className="w-48 h-48 mx-auto rounded-full bg-[#E8EEF6] border-4 border-[#5E9BD9] flex items-center justify-center text-[#5E9BD9] text-sm font-semibold">
-              Your Headshot Here
-            </div>
+  <div className="text-center">
 
-            <p className="mt-6 text-[#121310]/60 text-sm">
-              Replace this placeholder later with your photo.
-            </p>
-          </div>
+    <img
+      src="/headshot.jpeg"
+      alt="Dulce Garcia"
+      className="w-72 h-72 object-cover rounded-3xl border-4 border-[#5E9BD9] shadow-lg mx-auto"
+    />
 
-        </div>
+    <p className="mt-6 text-[#121310]/60 text-sm">
+      Dulce Garcia
+    </p>
+
+  </div>
+
+</div>
 
       </section>
 
