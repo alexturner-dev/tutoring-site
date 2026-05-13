@@ -12,7 +12,7 @@ export default function AboutPage() {
           </p>
 
           <h1 className="text-5xl lg:text-6xl font-black leading-tight">
-            Meet Dulce Garcia
+             Dulce Garcia
           </h1>
 
           <p className="mt-6 text-lg leading-relaxed text-[#121310]/75">
