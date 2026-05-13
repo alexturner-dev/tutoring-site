@@ -32,7 +32,7 @@ export default function AboutPage() {
   <div className="text-center">
 
     <img
-      src="/headshot.jpeg"
+      src="/headshot.JPEG"
       alt="Dulce Garcia"
       className="w-72 h-72 object-cover rounded-3xl border-4 border-[#5E9BD9] shadow-lg mx-auto"
     />
