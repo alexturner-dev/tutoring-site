@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Tutoring",
   description: "Personal tutoring services for K–6 students and beginner languages",
