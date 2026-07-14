@@ -14,37 +14,49 @@ function Navbar() {
         Tutoring
       </div>
 
-
       <div className="flex gap-6 text-[#121310]/70 font-medium">
 
-        <a 
-          href="/" 
+        <a
+          href="/"
           className="hover:text-[#5E9BD9] transition"
         >
           Home
         </a>
 
-        <a 
-          href="/about" 
+        <a
+          href="/about"
           className="hover:text-[#5E9BD9] transition"
         >
           About
         </a>
 
-        <a 
-          href="/pricing" 
+        <a
+          href="/#services"
+          className="hover:text-[#5E9BD9] transition"
+        >
+          Services
+        </a>
+
+        <a
+          href="/pricing"
           className="hover:text-[#5E9BD9] transition"
         >
           Pricing
         </a>
 
-        <a 
-          href="/recommendations" 
+        <a
+          href="/recommendations"
           className="hover:text-[#5E9BD9] transition"
         >
           Recommendations
         </a>
 
+        <a
+          href="/#contact"
+          className="hover:text-[#5E9BD9] transition"
+        >
+          Contact
+        </a>
 
       </div>
 
