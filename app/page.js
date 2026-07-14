@@ -16,6 +16,12 @@ export default function TutoringLandingPage() {
       title: "Beginner French",
       desc: "Start with essential phrases, pronunciation, and everyday communication.",
     },
+
+     {
+      title: "Beginner/ Intermediate Crochet",
+      desc: "Learn hands on crocheting and continue to improve your skills.",
+    },
+
   ];
 
   return (
@@ -28,12 +34,15 @@ export default function TutoringLandingPage() {
         </div>
 
         <div className="flex gap-6 text-[#121310]/70 font-medium">
-          <a href="/" className="hover:text-[#5E9BD9] transition">Home</a>
-          <a href="/about" className="hover:text-[#5E9BD9] transition">About</a>
-          <a href="#services" className="hover:text-[#5E9BD9] transition">Services</a>
-          <a href="/pricing" className="hover:text-[#5E9BD9] transition">Pricing</a>
-          <a href="#contact" className="hover:text-[#5E9BD9] transition">Contact</a>
-        </div>
+  <a href="/" className="hover:text-[#5E9BD9] transition">Home</a>
+  <a href="/about" className="hover:text-[#5E9BD9] transition">About</a>
+  <a href="#services" className="hover:text-[#5E9BD9] transition">Services</a>
+  <a href="/pricing" className="hover:text-[#5E9BD9] transition">Pricing</a>
+  <a href="/recommendations" className="hover:text-[#5E9BD9] transition">
+    Recommendations
+  </a>
+  <a href="#contact" className="hover:text-[#5E9BD9] transition">Contact</a>
+</div>
       </nav>
 
       {/* HERO */}
@@ -52,7 +61,7 @@ export default function TutoringLandingPage() {
           </p>
 
           <p className="mt-6 text-sm text-[#121310]/70">
-            📍 Orange Public Library – Main Branch (Orange, CA)
+            Local library's or park's
           </p>
 
           <p className="mt-2 text-sm text-[#121310]/70">
@@ -129,7 +138,8 @@ export default function TutoringLandingPage() {
 
             {[
               "Book a session",
-              "Bring materials or homework",
+              "Bring materials or homework (Physical or Mental) ",
+  
               "Improve skills and build confidence",
             ].map((step, idx) => (
               <div
