@@ -45,6 +45,7 @@ function Navbar() {
           Recommendations
         </a>
 
+
       </div>
 
     </nav>
