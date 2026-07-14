@@ -2,29 +2,6 @@ export default function PricingPage() {
   return (
     <div className="min-h-screen bg-[#E8EEF6] text-[#121310]">
 
-      {/* NAVBAR */}
-      <nav className="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
-
-        <div className="font-black text-2xl">
-          Tutoring
-        </div>
-
-        <div className="flex gap-6 text-[#121310]/70 font-medium">
-          <a href="/" className="hover:text-[#5E9BD9] transition">
-            Home
-          </a>
-
-          <a href="/about" className="hover:text-[#5E9BD9] transition">
-            About
-          </a>
-
-          <a href="/pricing" className="text-[#5E9BD9] font-bold">
-            Pricing
-          </a>
-        </div>
-
-      </nav>
-
       {/* HERO */}
       <section className="max-w-5xl mx-auto px-6 py-24 text-center">
 

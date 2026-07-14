@@ -27,24 +27,6 @@ export default function TutoringLandingPage() {
   return (
     <div className="min-h-screen bg-[#E8EEF6] text-[#121310]">
 
-      {/* NAVBAR */}
-      <nav className="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
-        <div className="font-black text-2xl text-[#121310]">
-          Tutoring
-        </div>
-
-        <div className="flex gap-6 text-[#121310]/70 font-medium">
-  <a href="/" className="hover:text-[#5E9BD9] transition">Home</a>
-  <a href="/about" className="hover:text-[#5E9BD9] transition">About</a>
-  <a href="#services" className="hover:text-[#5E9BD9] transition">Services</a>
-  <a href="/pricing" className="hover:text-[#5E9BD9] transition">Pricing</a>
-  <a href="/recommendations" className="hover:text-[#5E9BD9] transition">
-    Recommendations
-  </a>
-  <a href="#contact" className="hover:text-[#5E9BD9] transition">Contact</a>
-</div>
-      </nav>
-
       {/* HERO */}
       <section className="max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-16 items-center">
 
@@ -175,7 +157,7 @@ export default function TutoringLandingPage() {
           </h2>
 
           <p className="mb-6 font-medium text-white/90">
-            📍 Orange Public Library – Main Branch
+            📍 Local Library's And Park's
             <br />
             💻 Zoom available
           </p>
